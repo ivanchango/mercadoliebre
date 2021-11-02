@@ -1,2 +1,0 @@
-# mercado
-# mercadoliebre
