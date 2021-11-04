@@ -5,7 +5,7 @@ const app = express();
 
 //localhost:
 
-app.listen(3030, () => console.log ('Esto fue exitoso'));
+app.listen(3000, () => console.log ('Esto fue exitoso'));
 
 app.use(express.static('public'));
 
