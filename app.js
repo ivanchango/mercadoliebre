@@ -5,6 +5,10 @@ const app = express();
 
 //localhost:
 
+app.listen(process.env.PORT || 4000, ()=>{
+    console.log('Servidor funcionando');
+});
+
 app.listen(3000, () => console.log ('Esto fue exitoso'));
 
 app.use(express.static('public'));
